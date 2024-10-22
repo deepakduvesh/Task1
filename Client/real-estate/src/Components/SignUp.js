@@ -36,7 +36,7 @@ const Signup = () => {
       e.preventDefault();
       try {
         if(username.length<4 || password.length<4){
-          toast.error("username and password length must be greater than 4",{position:"bottom-right"})
+          toast.error("username and password length must be greater than 4",{position:"right"})
           return ;
         }
         if(password!==cPassword){
