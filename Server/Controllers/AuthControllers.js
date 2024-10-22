@@ -36,27 +36,3 @@ export const Login = async (req, res) => {
     console.error(error);
   }
 };
-
-
-
-export const profile = async(req,res,next)=>{
-  const user = await User.findOne({});
-  if(user){
-      const params = req.query.param1;
-      const thisuser = await User.findOne({email:params});
-      console.log(params)
-      console.log(thisuser)
-      if(thisuser){
-          const pic = thisuser.image;      
-          return res.json({pic,status:true});
-      }
-      else{
-          return res.json({status:false})
-      }
-      
-  }
-  else{
-      return res.json({status:false});
-  }
-
-}

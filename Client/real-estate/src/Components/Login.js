@@ -3,9 +3,6 @@ import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import '../Styles/LoginSignup.css';
-
-
-
 const Login = () => {
   const navigate = useNavigate();
   const [inputValue, setInputValue] = useState({

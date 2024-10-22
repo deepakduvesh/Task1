@@ -1,7 +1,4 @@
-// src/components/PropertyItem.js
-
 import React from 'react';
-
 const PropertyItem = ({ property }) => {
     return (
         <div style={styles.propertyItem}>

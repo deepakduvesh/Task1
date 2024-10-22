@@ -1,10 +1,7 @@
-// src/components/PropertyList.js
-
 import React from 'react';
 import PropertyItem from './PropertyItem';
 
 const PropertyList = () => {
-    // Sample data for luxury properties
     const properties = [
         {
             title: 'Modern Villa in Beverly Hills',
