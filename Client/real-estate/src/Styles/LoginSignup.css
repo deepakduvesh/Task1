@@ -1,0 +1,133 @@
+/* styles: Login and sign up  */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+
+.login-signup-container{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: -47px;
+    width: 542px;
+    padding-bottom: 32px;
+    border-radius: 26px;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 90vh;
+    position: absolute;
+    top: 16%;
+    left: 9%;
+}
+
+.header{
+    font-family: 'Nunito',sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.text{
+    color: rgb(54, 54, 208);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.underline{
+   width: 61px;
+   height: 6px;
+   background:rgb(54, 54, 208);
+   border-radius: 9px;
+}
+
+.login-signup-container form{
+    margin-top: 25px;
+}
+
+.inputs{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 430px;
+    height: 64px;
+    border-radius: 7px;
+    
+}
+.input img {
+    margin: 0px 30px;
+    height: 25px;
+    width: 26px;
+}
+
+.input input {
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+    border-bottom: 2px solid rgb(54, 54, 208);
+    border-radius: 8px;
+}
+
+.forgot-password{
+    font-family: 'Nunito',sans-serif;
+    padding-left: 62px;
+    margin-top: 25px;
+    color: #797979;
+    font-size: 18px;
+}
+
+.forgot-password span {
+    font-family: 'Nunito',sans-serif;
+    color: rgb(54, 54, 208);
+    cursor: pointer;
+}
+
+.submit-container {
+    font-family: 'Nunito',sans-serif;
+    display: flex;
+    gap: 30px;
+    margin: 27px auto;
+}
+
+.submit {
+    font-family: 'Nunito',sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 56px;
+    color: rgb(54, 54, 208);
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+    background: transparent;
+    border-bottom: 5px solid rgb(54, 54, 208);
+}
+
+.gray{
+    background: #EAEAEA;
+    color: #676767;
+}
